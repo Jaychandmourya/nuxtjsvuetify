@@ -1,0 +1,28 @@
+{
+  "categoires": [
+    {
+      "cname": "car",
+      "cdescription": "car Description",
+      "cstatus": true,
+      "id": 1
+    },
+    {
+      "cname": "cat2",
+      "cdescription": "car Description2",
+      "cstatus": false,
+      "id": 3
+    },
+    {
+      "cname": "cate3",
+      "cdescription": "cate3 is good categories",
+      "cstatus": true,
+      "id": 4
+    },
+    {
+      "cname": "cate4",
+      "cdescription": "cate4 is categores",
+      "cstatus": false,
+      "id": 5
+    }
+  ]
+}
