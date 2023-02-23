@@ -250,6 +250,14 @@ export default {
       }
       this.close();
     },
+    save() {
+      if (this.editedIndex > -1) {
+        Object.assign(this.desserts[this.editedIndex], this.editedItem);
+      } else {
+        this.desserts.push(this.editedItem);
+      }
+      this.close();
+    },
   },
 };
 </script>
